@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bella Vita - Italian Restaurant</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Bella Vita</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item" >
+                    <a class="nav-link" onclick="openMenu()" href="#">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Welcome to Bella Vita</h1>
+                    <p>Experience the taste of Italy in the heart of the city.</p>
+                    <button class="btn btn-primary" onclick="openMenu()">View Menu</button>
+                </div>
+            </div>
+        </div>
+    </section><section class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Our Story</h2>
+                    <p>Bella Vita was founded by a group of passionate Italian chefs who wanted to share their love of Italian cuisine with the world. We believe that good food should be accessible to everyone, regardless of their background or location. Our menu features a variety of traditional Italian dishes, made with fresh ingredients and a focus on quality and taste.</p>
+                </div>
+                <div class="col-md-6">
+                    <h2>Our Values</h2>
+                    <ul>
+                        <li>Quality Ingredients</li>
+                        <li>Fresh Preparation</li>
+                        <li>Authentic Italian Flavors</li>
+                        <li>Accessible Prices</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Our Menu</h2>
+                    <div class="menu-items">
+                        <div class="menu-item col-md-4 col-sm-6 col-xs-12">
+                            <h3>Pizza Margherita</h3>
+                            <p>Classic Neapolitan-style pizza with fresh tomatoes, mozzarella, and basil.</p>
+                            <p>$15.99</p>
+                        </div>
+                        <div class="menu-item col-md-4 col-sm-6 col-xs-12">
+                            <h3>Spaghetti Bolognese</h3>
+                            <p>Tender spaghetti tossed in a rich meat sauce made with ground beef and pork.</p>
+                            <p>$16.99</p>
+                        </div>
+                        <div class="menu-item col-md-4 col-sm-6 col-xs-12">
+                            <h3>Chicken Parmesan</h3>
+                            <p>Breaded and fried chicken topped with marinara sauce and melted mozzarella cheese.</p>
+                            <p>$17.99</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
